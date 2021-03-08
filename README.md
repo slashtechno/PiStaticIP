@@ -1,6 +1,13 @@
 # PiStaticIP
 Python script that sets a static/reserved ip for RaspberryPI
 
+### To install:
+`wget https://raw.githubusercontent.com/slashtechno/PiStaticIP/main/staticIP`
+
+### To run
+`./staticIP`
+
+
 ### How this works
 
 1. Asks user if they are using WiFi or Ethernet
