@@ -5,7 +5,7 @@ Python script that sets a static/reserved IP for Raspberry Pi
 `wget https://raw.githubusercontent.com/slashtechno/PiStaticIP/main/staticIP`
 
 ### To run
-`./staticIP`
+`python3 staticIP`
 
 
 ### How this works
