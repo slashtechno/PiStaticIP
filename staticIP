@@ -9,7 +9,7 @@ if interface==1:
     result=os.system("ip route | grep wlan0")
     interface="wlan0"
 if interface==2:
-    os.system("ip route | grep eth0")
+    result=os.system("ip route | grep eth0")
     interface="eth0"
 str(result)
 print("\nThe rest of the questions are referring to the two lines above")
