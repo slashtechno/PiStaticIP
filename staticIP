@@ -2,7 +2,7 @@
 import os
 import getpass
 import time
-user = getpass.getuser())
+user = getpass.getuser()
 
 if user == "root":
     print("You have run this as root, please switch either stop using sudo or switch account")
