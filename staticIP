@@ -1,7 +1,17 @@
 #!/usr/bin/python3
 import os
-input("If you are running with sudo press control+c\nIf you are running without press enter")
+import getpass
+import time
+user = getpass.getuser()
+
+if user == "root":
+    print("You have run this as root, please switch either stop using sudo or switch account")
+    time.sleep(10)
+    exit()
+else:
+    continue
 os.system("cd ~")
+
 interface=input("Are you using WiFi(Press 1) or Ethernet (Press 2)")
 interface=int(interface)
 print("\n\n\n")
