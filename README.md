@@ -7,6 +7,12 @@ Python script that sets a static/reserved IP for Raspberry Pi
 ### To run
 `staticIP`
 
+### To Update (I recommend doing this frequently)
+`https://raw.githubusercontent.com/slashtechno/PiStaticIP/main/update | bash` 
+
+### To Uninstall  
+`https://raw.githubusercontent.com/slashtechno/PiStaticIP/main/uninstall | bash` 
+
 
 ### How this works
 
