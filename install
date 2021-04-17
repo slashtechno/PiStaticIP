@@ -1,5 +1,6 @@
 wget https://raw.githubusercontent.com/slashtechno/PiStaticIP/main/staticIP
 sudo mv staticIP /bin
+sudo chmod +x bin/staticIP
 echo
 echo
 echo Now just run "staticIP" to run this program 
