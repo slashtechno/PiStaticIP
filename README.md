@@ -8,13 +8,13 @@ Python script that sets a static/reserved IP for Raspberry Pi
 `staticIP`
 
 ### One time run
-`https://raw.githubusercontent.com/slashtechno/PiStaticIP/main/staticIP | python3`
+`wget -qO- https://raw.githubusercontent.com/slashtechno/PiStaticIP/main/staticIP | python3`
 
 ### To Update (I recommend doing this frequently)
-`https://raw.githubusercontent.com/slashtechno/PiStaticIP/main/update | bash` 
+`wget -qO- https://raw.githubusercontent.com/slashtechno/PiStaticIP/main/update | bash` 
 
 ### To Uninstall  
-`https://raw.githubusercontent.com/slashtechno/PiStaticIP/main/uninstall | bash` 
+`wget -qO- https://raw.githubusercontent.com/slashtechno/PiStaticIP/main/uninstall | bash` 
 
 
 ### How this works
