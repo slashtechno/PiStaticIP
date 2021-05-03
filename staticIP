@@ -9,7 +9,7 @@ if user == "root":
     time.sleep(10)
     exit()
 else:
-    continue
+    pass
 os.system("cd ~")
 
 interface=input("Are you using WiFi(Press 1) or Ethernet (Press 2)")
